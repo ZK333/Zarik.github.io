@@ -75,16 +75,24 @@ body{
     font-size: 2rem;
     border: 1px solid white;
     border-radius: 8px;
+    outline: none;
     margin-top: 30px;
     margin-bottom: 30px;
-     outline: none;
-
     width:700px;
     height:100px;
+    overflow:hidden;
+    
+    font-family:sans-Serif;
+    font-weight: 500;
+  }
+
+  .projectButtons__text{
+      display:inline flex; 
+
   }
 
 .projectButtons:hover{
-    background-color: rgb(8, 205, 245);
+    background-color: rgb(56, 245, 39);
     width:750px;
     height:120px; 
 }
