@@ -45,10 +45,17 @@ body{
 
   
 .buttons>button:hover{
-    background-color: rgb(56, 245, 39);
     padding-right: 30px;
     padding-left:30px;
   }
+
+  .github:hover{
+    background-color: red;
+  }
+  .discord:hover{
+    background-color: rgb(56, 245, 39);
+  }
+
  
   .projects{
     cursor: pointer;
@@ -99,3 +106,6 @@ body{
     width:750px;
     height:120px; 
 }
+
+
+  
