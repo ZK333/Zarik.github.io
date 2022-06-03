@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(to right, #1f1e1e,#010101);
+}
+
+.banner{
+    display: flex; 
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    font-family:"Open Sans", sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.intro{
+    vertical-align: middle;
+    text-align: center;
+    font-family:"Open Sans", sans-serif;
+    padding-top: 30px;
+    font-size: medium;
+    color: white;
+}
+.textB{
+    background-image: linear-gradient(90deg, red, blue);
+    -webkit-background-clip: text;
+    background-clip:text;
+    color: transparent;
+
+}
+
+
+.buttons>button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    outline: none;
+    padding:5px;
+    margin: 20px;
+    padding-right: 15px;
+    padding-left:15px;
+  }
+
+  
+.buttons>button:hover{
+    background-color: rgb(56, 245, 39);
+    padding-right: 30px;
+    padding-left:30px;
+  }
+ 
+  .projects{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    outline: none;
+    padding:25px;
+    margin:20px
+    
+  }
+
+  .space{
+      margin:125px
+  }
+
+  .descrip{
+    font-family:"Open Sans", sans-serif;
+      font-size: 30px
+  }
+
+  .projectButtons{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    width:700px;
+    height:100px;
+  }
+
+.projectButtons:hover{
+    background-color: rgb(8, 205, 245);
+    width:750px;
+    height:120px; 
+}
+
+  
