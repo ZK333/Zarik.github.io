@@ -1,0 +1,54 @@
+
+
+.intro{
+  display:flex;  
+box-shadow: currentColor;
+justify-content: center;
+align-items: space-around;
+}
+
+.buttons{
+display:flex;  
+box-shadow: currentColor;
+justify-content: center;
+align-items: space-around;
+}
+
+.buttons>button{
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  padding:10px;
+  margin-left:20px; 
+  color: #ffffff;
+  -webkit-tap-highlight-color: transparent;
+  border:none; 
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.buttons>button:hover{
+  background-color: rgba(173, 169, 169, 0.6);
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: lightblue;
+  background-color: #007c4c
+}
+
+.container{
+  display:flex;  
+  font-size: 100px;
+  justify-content: center;
+  align-content: center;
+}
+
+h1{
+  font-size: 100px;
+}
+
+canvas{
+  position: absolute;
+  top: 250px;
+}
